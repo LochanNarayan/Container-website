@@ -114,6 +114,13 @@ body {
   /* Distinctly larger than the subtitle text below it */
 }
 
+.hero-headline.line-2 {
+  font-size: clamp(2rem, 5.5vw, 4.8rem);
+  /* Scaled down specifically to not exceed the width of SKD CONTAINER */
+  color: #ddd;
+  /* Slightly dimmed to maintain hierarchy */
+}
+
 .hero-subheadline {
   font-family: var(--font-body);
   font-weight: 500;
